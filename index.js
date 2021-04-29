@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
 const readmeGenerate = require("./utils/generateMarkdown.js");
 const writeDataAsync = util.promisify(fs.write);
-// TODO: Create an array of questions for user input
+// Create an array of questions for user input
 const questions = [{
         type: "input",
         name: "title",
@@ -58,7 +58,7 @@ const questions = [{
     }
 ];
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
         .then(function(data) {
