@@ -1,5 +1,5 @@
 
-    #<h1 align="center">Readme Generator 👋</h1>
+    <h1 align="center">Readme Generator 👋</h1>
 
     ## Description
 🔍 An application that create a readme file instantly
