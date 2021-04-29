@@ -1,9 +1,7 @@
 // Include packages needed for this application
 const fs = require("fs");
-const util = require("util");
 const inquirer = require("inquirer");
 const readmeGenerate = require("./utils/generateMarkdown.js");
-const writeDataAsync = util.promisify(fs.write);
 // Create an array of questions for user input
 const questions = [{
         type: "input",
